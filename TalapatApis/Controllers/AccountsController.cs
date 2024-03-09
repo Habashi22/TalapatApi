@@ -36,8 +36,10 @@ namespace TalapatApis.Controllers
         public async Task<ActionResult<UserDto>> Register(RegisterDto model)
         {
 
-           // if (checkemailexist(model.Email).Result.Value)
+            // if (checkemailexist(model.Email).Result.Value)
             //    return BadRequest(new ApiResponse(400,"this email is already exist"));
+            //    return BadRequest(new ApiResponse(400,"this email is already exist"));
+
 
             var user = new AppUser()
             {
